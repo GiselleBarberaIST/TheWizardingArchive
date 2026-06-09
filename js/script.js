@@ -54,7 +54,11 @@ function displayCharacters(characters) {
                     <p><strong>Especie:</strong> ${character.species}</p>
                     <p><strong>Patronus:</strong> ${character.patronus}</p>
                     <p><strong>Estado:</strong> ${character.status}</p>
-                    <p><strong>Ocupación:</strong> ${character.occupation.join(", ")}</p>
+                    <p><strong>Ocupación:</strong> ${
+                        Array.isArray(character.occupation)
+                        ? character.occupation.join(", ")
+                        : character.occupation ?? "Desconocido"
+                    }</p>
                     <p><strong>Actor:</strong> ${character.actor}</p>
                     <p>${character.description}</p>
                 </div>

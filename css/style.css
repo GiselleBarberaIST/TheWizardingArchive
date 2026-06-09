@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "MagicSchool";
+    src: url("/assets/fonts/magic_school/MagicSchoolOne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("/assets/fonts/cinzel/Cinzel-Regular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* RESET BÁSICO */
 
 * {
@@ -7,16 +21,57 @@
 }
 
 /* PÁGINA */
+main {
+    flex: 1;
+}
+
+html, body {
+    height: 100%;
+}
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #f4f1ea;
     padding: 20px;
 }
 
-h1 {
+header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'MagicSchool', serif;
+    font-size: 3rem;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #3e2f24;
+}
+
+.subtitle {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 0.95rem;
+    color: #6b5b4b;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+
+.subtitle2 {
+    font-family: 'Cinzel', sans-serif;
+    text-align: left;
+    font-size: 0.95rem;
+    color: #6b5b4b;
+    opacity: 0.7;
+    margin-bottom: 0;
 }
 
 #searchInput {
@@ -28,22 +83,41 @@ h1 {
     border-radius: 8px;
 }
 
+.navigation-cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.navigation-cards a {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: #3e2f24;
+    color: #f4f1ea;
+    font-family: "Cinzel", serif;
+    transition: 0.2 ease;
+}
+
+.navigation-cards a:hover {
+    background-color: #5a4636;
+    transform: translateY(-2px);
+}
+
+footer {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 20px;
+    color: #6b5b4b;
+    font-size: 0.9rem;
+}
+
 /* CONTENEDOR DE TARJETAS */
 
-#charactersContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 25px;
-    justify-items: center;
-}
-
-#booksContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 25px;
-    justify-items: center;
-}
-
+#charactersContainer,
+#booksContainer,
 #institutionsContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -53,18 +127,8 @@ h1 {
 
 /* TARJETA */
 
-.character-card {
-    width: 300px;
-    height: 500px;
-    perspective: 1000px;
-}
-
-.book-card {
-    width: 300px;
-    height: 500px;
-    perspective: 1000px;
-}
-
+.character-card,
+.book-card,
 .institution-card {
     width: 300px;
     height: 500px;
