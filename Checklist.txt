@@ -1,0 +1,61 @@
+📋 The Wizarding Archive - Checklist del TP
+Parte 1 – Creación del Proyecto
+Aplicación
+ Crear proyecto The Wizarding Archive
+ Crear estructura inicial de carpetas
+ Crear index.html
+ Crear styles.css
+ Crear app.js
+ Crear characters.json
+ Mostrar listado de personajes
+ Implementar búsqueda por nombre
+ Implementar filtro por casa
+ Mostrar detalle de personaje
+ Mejorar diseño visual
+Parte 2 – Control de Versiones con Git
+Repositorio local
+ Inicializar repositorio Git
+Commits mínimos requeridos
+ Commit 1: creación inicial del proyecto
+ Commit 2: estructura HTML/CSS/JS
+ Commit 3: funcionalidad implementada
+Repositorio remoto
+ Crear repositorio en GitHub
+ Vincular repositorio local con GitHub
+ Publicar proyecto
+Parte 3 – Dockerización
+Docker
+ Elegir imagen base
+ Crear Dockerfile
+ Construir imagen Docker
+ Ejecutar contenedor
+ Verificar funcionamiento de la aplicación dentro del contenedor
+Parte 4 – Documentación
+README.md
+ Nombre del proyecto
+ Descripción
+ Tecnologías utilizadas
+ Requisitos previos
+ Instalación
+ Construcción de imagen Docker
+ Ejecución del contenedor
+ Capturas de pantalla (opcional)
+Entregables obligatorios
+ URL del repositorio
+ Código fuente completo
+ Dockerfile funcional
+ README.md completo
+Recomendado
+ Captura del repositorio publicado
+ Captura de construcción de imagen Docker
+ Captura de ejecución del contenedor
+ Captura de la aplicación funcionando
+Bonus (+10%)
+Muy fáciles de agregar
+ Crear .gitignore
+ Utilizar variables de entorno
+Intermedias
+ Implementar Docker Compose
+ Publicar imagen en Docker Hub
+Más avanzada
+ Automatizar con GitHub Actions

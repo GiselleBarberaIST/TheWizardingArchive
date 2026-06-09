@@ -1,0 +1,131 @@
+[
+{
+"id": 1,
+"name": "Colegio Hogwarts de Magia y Hechicería",
+"type": "Escuela",
+"founded": "Siglo X",
+"founders": [
+"Godric Gryffindor",
+"Helga Hufflepuff",
+"Rowena Ravenclaw",
+"Salazar Slytherin"
+],
+"motto": "Draco Dormiens Nunquam Titillandus (Nunca le pegues un puñetazo en el ojo a un dragón dormido)",
+"location": "Escocia",
+"description": "Colegio de Magia y Hechicería al que asisten la mayoría de los jóvenes magos de Gran Bretaña.",
+"image": "img/Institutions/Hogwarts.png"
+},
+{
+"id": 2,
+"name": "Ministerio Británico de la Magia",
+"type": "Gobierno",
+"founded": "1600s",
+"founders": [],
+"motto": "Ignorantia Juris Non Excusat (La ignorancia de la ley no es excusa para no cumplirla)",
+"location": "Londres, Inglaterra",
+"description": "Institución gubernamental encargada de regular y administrar la comunidad mágica británica.",
+"image": "img/Institutions/MinistryOfMagic.png"
+},
+{
+"id": 3,
+"name": "Banco Mágico Gringotts",
+"type": "Banco",
+"founded": "1474",
+"founders": [
+"Gringott"
+],
+"motto": "Entra, desconocido, pero ten cuidado con lo que le espera al pecado de la codicia. Porque aquellos que toman, pero no se lo han ganado, deberán pagar, en cambio, mucho más. Así que si buscas por debajo de nuestro suelo un tesoro que nunca fue tuyo, ladrón, te hemos advertido, ten cuidado de encontrar aquí algo más que un tesoro.",
+"location": "Callejón Diagon, Londres",
+"description": "Banco administrado por duendes que custodia las fortunas y objetos de valor de la comunidad mágica.",
+"image": "img/Institutions/Gringotts.png"
+},
+{
+"id": 4,
+"name": "Hospital San Mungo para Enfermedades y Heridas Mágicas",
+"type": "Hospital",
+"founded": "Siglo XVII",
+"founders": [
+"Mungo Bonham"
+],
+"motto": "",
+"location": "Londres, Inglaterra",
+"description": "Principal hospital de la comunidad mágica británica especializado en enfermedades y accidentes relacionados con la magia.",
+"image": "img/Institutions/SanMungo.png"
+},
+{
+"id": 5,
+"name": "Azkaban",
+"type": "Prisión",
+"founded": "Siglo XV",
+"founders": [
+"Ekrizdis"
+],
+"motto": "",
+"location": "Mar del Norte",
+"description": "Prisión de máxima seguridad para magos y brujas criminales, famosa por haber estado custodiada por dementores.",
+"image": "img/Institutions/Azkaban.png"
+},
+{
+"id": 6,
+"name": "Academia Mágica Beauxbatons",
+"type": "Escuela",
+"founded": "Siglo XII",
+"founders": [],
+"motto": "",
+"location": "Pirineos, Francia",
+"description": "Prestigiosa academia de magia francesa que participa regularmente en eventos internacionales del mundo mágico.",
+"image": "img/Institutions/Beauxbatons.png"
+},
+{
+"id": 7,
+"name": "Instituto Durmstrang",
+"type": "Escuela",
+"founded": "Desconocido",
+"founders": [
+    "Nerida Vulchanova"
+],
+"motto": "",
+"location": "Norte de Escandinavia, Suecia o Noruega",
+"description": "Instituto mágico conocido por su énfasis en la enseñanza de ciertas ramas avanzadas de la magia.",
+"image": "img/Institutions/Durmstrang.png"
+},
+{
+"id": 8,
+"name": "Colegio Ilvermorny de agia y Hechicería",
+"type": "Escuela",
+"founded": "Siglo XVII",
+"founders": [
+"Isolt Sayre",
+"James Steward",
+"Agilbert Fontaine"
+],
+"motto": "",
+"location": "Massachusetts, Estados Unidos",
+"description": "Principal escuela de magia de Norteamérica, fundada por Isolt Sayre y su familia.",
+"image": "img/Institutions/Ilvermorny.png"
+},
+{
+"id": 9,
+"name": "El Profeta",
+"type": "Periódico",
+"founded": "Desconocido",
+"founders": [],
+"motto": "The Wizard World's beguiling broadsheet of choice (El atrapante periódico más elegido por la comunidad mágica)",
+"location": "Londres, Inglaterra",
+"description": "Periódico más importante y de mayor circulación dentro de la comunidad mágica británica.",
+"image": "img/Institutions/Prophet.png"
+},
+{
+"id": 10,
+"name": "El Quisquilloso",
+"type": "Revista",
+"founded": "Desconocido",
+"founders": [
+"Xenophilius Lovegood"
+],
+"motto": "",
+"location": "Inglaterra",
+"description": "Publicación alternativa conocida por difundir teorías poco convencionales sobre el mundo mágico.",
+"image": "img/Institutions/Quibbler.png"
+}
+]
