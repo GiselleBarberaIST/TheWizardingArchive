@@ -21,7 +21,7 @@ Plataforma creada con HTML, JS y CSS para tener de un vistazo a los principales 
 ## Instalación
 
 1. Clonar el repositorio:
-   git clone ...
+   git clone https://github.com/GiselleBarberaIST/TheWizardingArchive
 
 2. Ingresar al directorio del proyecto:
    cd the-wizarding-archive
@@ -32,5 +32,14 @@ Abrir el proyecto mediante Live Server o cualquier servidor web local.
 
 ## Construcción de la imagen Docker
 
-```bash
+Construir la imagen Docker:
 docker build -t the-wizarding-archive .
+
+## Ejecución del contenedor
+
+Ejecutar el contenedor:
+
+docker run -d -p 8080:80 --name wizarding-archive the-wizarding-archive
+
+Una vez iniciado el contenedor, acceder a la aplicación desde:
+http://localhost:8080
